@@ -23,7 +23,12 @@ export default {
       'seasalt': '#f8f8faff',
     }
   },
+  vite: {
+    optimizeDeps: {
+      include: ['lodash.get', 'lodash.isequal', 'lodash.clonedeep']
+    }
+  },
 
   plugins: [typography, forms, containerQueries, aspectRatio, flowbitePlugin]
-} as Config;
+  } as Config;
 

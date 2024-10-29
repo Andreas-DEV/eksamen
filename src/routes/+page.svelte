@@ -4,10 +4,16 @@
     import AboutTeaser from "$lib/AboutTeaser.svelte";
     import Help from "$lib/Help.svelte";
     import Services from "$lib/Services.svelte";
-    Services
+    import Voreskunder from "$lib/Voreskunder.svelte";
+    import VoresTeam from "$lib/VoresTeam.svelte";
+    import SidsteNyt from "$lib/SidsteNyt.svelte";
+
 </script>
 
     <Hero/>
     <AboutTeaser/>
     <Help/>
     <Services/>
+    <Voreskunder/>
+    <VoresTeam/>
+    <SidsteNyt/>
